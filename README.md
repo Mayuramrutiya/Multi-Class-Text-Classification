@@ -90,7 +90,7 @@ It is necessory that we check the the distribution of different category in clas
 
 I created plots for distribution of work order categories to check the skewness of the data. In the distribution analysis, I observed that data is not well balanced, Preventive maintenance (PM), Repair and Damage were the most frequent type of work orders while Attachment (ATTACH), Request and Tires category had less data.
 
-![Data Distribution](./Images/Distribution.png)
+![Data Distribution](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification/blob/master/Images/Distribution.PNG)
 
 *When we encounter such problems, algorithms are often biased towards the majority class, not taking the data distribution into consideration. In the worst case, minority classes are treated as outliers and ignored. For some cases, such as fraud detection or cancer prediction, we would need to carefully configure our model or artificially balance the dataset, for example by undersampling or oversampling.*
 
@@ -191,6 +191,6 @@ print(confusion_matrix(ytest, model.predict(X_test)))
 print(classification_report(ytest, model.predict(X_test)))
 print("accuracy score: " + str(model.score(X_test, y_test)))
 ```
-[Model Output](./Images/Model_Output.png)
+[Model Output](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification/blob/master/Images/Model_Output.PNG)
 
 ___
