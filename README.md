@@ -45,10 +45,10 @@ ___
 
 The Data was generic and lot of columns were redundant for example work order cost, worker name, and company name, so first I subset the columns that were important to the objectives which is;
 
-Service Description – Description on work order service 
-CAT – True category of work order **(Target Variable)**
-WC – Work order number 
-FLS GRP – Type of vehicle
+* Service Description – Description on work order service 
+* CAT – True category of work order **(Target Variable)**
+* WC – Work order number 
+* FLS GRP – Type of vehicle
 
 Since main objective was only concerned with forklifts, I filtered the data to show only forklift’s data.
 
