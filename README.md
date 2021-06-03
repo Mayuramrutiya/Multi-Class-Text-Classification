@@ -146,7 +146,7 @@ I used TF-IDF (term frequency – inverse document frequency) to weight words in
 
 * Term Frequency (TF) = (Number of times word appears in a document)/(Number of word in the document)
 
-* Inverse Document Frequency (IDF) = log(N/n), where, N is the number of documents (our case number of work order description) and n is the number of documents a word has appeared in. The IDF of a word that appears more in only one class and less in other is high, whereas the IDF of a word that is present in all categories is likely to be low. Thus, having the effect of highlighting words that are distinct.
+* Inverse Document Frequency (IDF) = log(N/n), where, N is the number of documents (In our case number of work order description) and n is the number of documents a word has appeared in. The IDF of a word that appears more in only one class and less in other is high, whereas the IDF of a word that is present in all categories is likely to be low. Thus, having the effect of highlighting words that are distinct.
 
 * TF-IDF = TF * IDF
 
@@ -162,7 +162,7 @@ labels = df_short.CAT_ID
 
 I splited the data into training and testing dataset. I put 80% of work orders in training which will be used to train our model and 20% of work order to test the model.
 
-I tried Naïve Bayes and the Random Forest algorithm, in this case Random Forest worked better. So, I decided to use a random forest algorithm as a final model and I implemented a model using the Sci-kit Learn library in python.
+I tried Naïve Bayes and the Random Forest algorithm, in this case Random Forest worked better. So, I decided to use a random forest algorithm as a final model. I implemented a model using the Sci-kit Learn library in python.
 
 *it is best practice to try multiple model and select the one that gives better results for the data we have.*
 
