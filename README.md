@@ -184,7 +184,7 @@ model = pipeline.fit(X_train, y_train)
 with open('RandomForest.pickle', 'wb') as f:
     pickle.dump(model, f)
 ```
-The graphic below shows the accuracy output of the random forest model on the test data. **We can see that the overall accuracy is 0.917.** Which means, giving the input, the model correctly classifies the class 91.7% of the time.
+The graphic below shows the accuracy output of the random forest model on the test data. **We can see that the overall accuracy is 0.911.** Which means, giving the input, the model correctly classifies the class 91.1% of the time.
 
 ```Python
 print(confusion_matrix(ytest, model.predict(X_test)))
