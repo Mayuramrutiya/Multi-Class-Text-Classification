@@ -191,6 +191,6 @@ print(confusion_matrix(ytest, model.predict(X_test)))
 print(classification_report(ytest, model.predict(X_test)))
 print("accuracy score: " + str(model.score(X_test, y_test)))
 ```
-[Model Output](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification/blob/master/Images/Model_Output.PNG)
+![Model Output](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification/blob/master/Images/Model_Output.PNG)
 
 ___
