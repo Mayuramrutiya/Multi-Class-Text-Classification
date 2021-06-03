@@ -1,5 +1,4 @@
-## Multi Class Text Classification Model 
-![Github Repo](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification)
+## ![Multi Class Text Classification Model](https://github.com/Mayuramrutiya/Multi-Class-Text-Classification)
 ___
 
 #### Intoduction:
