@@ -191,6 +191,6 @@ print(confusion_matrix(ytest, model.predict(X_test)))
 print(classification_report(ytest, model.predict(X_test)))
 print("accuracy score: " + str(model.score(X_test, y_test)))
 ```
-![Model Output](./Images/Model_Output.png)
+[Model Output](./Images/Model_Output.png)
 
 ___
